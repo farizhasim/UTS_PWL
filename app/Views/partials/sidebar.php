@@ -7,7 +7,7 @@
             <a href="/user" class="nav-link text-dark">User Page</a>
         </li>
         <li class="nav-item mb-3">
-            <a href="/settings" class="nav-link text-dark">Settings</a>
+            <a href="#" class="nav-link text-dark">Settings</a>
         </li>
         <li class="nav-item mb-3">
             <a href="/logout" class="nav-link text-danger">Logout</a>
