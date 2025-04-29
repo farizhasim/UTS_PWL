@@ -8,6 +8,9 @@ use CodeIgniter\Router\RouteCollection;
 
 
 
+ $routes->get('/', function() {
+    return redirect()->to('/login');
+});
 
 $routes->get('/login', 'AuthController::login');
 $routes->post('/login', 'AuthController::doLogin');
